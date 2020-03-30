@@ -1,0 +1,58 @@
+//NewsCategories
+.header-news {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.header-news__item {
+  text-align: center;
+
+  ul {
+    padding: 0;
+  }
+  li {
+    padding-left: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+  }
+  a{
+    padding: 0 5px;
+    text-decoration: none;
+    color: #462a91;
+  }
+  .selected {
+    color: #ff2b1a;
+  }
+}
+//
+.main-start {
+  text-align: center;
+}
+
+//NewsCardList
+.news-list__empty {
+  width: 100%;
+  .test{
+    text-align: center;
+  }
+}
+
+//news
+.news-card__preloader-wrap {
+  position: relative;
+}
+.news-card__preloader {
+  position: absolute;
+  left: 100px;
+  bottom: -180px;
+}
+
+//PageNotFound
+.page404__title {
+  text-align: center;
+}
